@@ -1,0 +1,26 @@
+{
+    "name": "example-g2",
+    "version": "1.0.0",
+    "description": "An Example for g2",
+    "main": "index.js",
+    "dependencies": {
+        "g2": "^2.1.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "browserify index.js > dist/bundle.js",
+        "dev": "browser-sync start --server --files \"**/*.html,**/*.css,**/*.js\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandonxiang/example-g2.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brandonxiang/example-g2/issues"
+    },
+    "homepage": "https://github.com/brandonxiang/example-g2#readme"
+}
